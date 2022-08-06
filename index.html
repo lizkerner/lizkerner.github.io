@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>Liz Kerner</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Custom styles for this template -->
+  <!-- <link href="album.css" rel="stylesheet"> -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+    * {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+    a {
+      /* text-decoration: none; */
+    }
+
+    a:hover {
+      /* text-decoration: underline; */
+    }
+
+    .btn:hover {
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    h3,
+    h4 {
+      font-weight: 600;
+    }
+
+    .navbar-brand {
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    .nav-link {
+      text-transform: uppercase;
+      font-size: 90%;
+    }
+
+    .light {
+      font-weight: 300;
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <header class="mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Liz Kerner</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" class="container py-4">
+
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="http://www.fillmurray.com/100/100" class="rounded-circle mb-4" alt="Liz Kerner">
+        <h1>Liz Kerner</h1>
+        <p class="light">Some sort of sentence should go here.</p>
+        <ul class="list-inline mt-4 fs-4">
+          <li class="list-inline-item"><a href="https://www.instagram.com/lizkerner/"><i class="bi bi-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.pinterest.com/lizkerner/"><i class="bi bi-pinterest"></i></a></li>
+          <li class="list-inline-item"><a href="mailto:liz.kerner@gmail.com"><i class="bi bi-envelope"></i></i></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-9">
+
+        <section id="projects">
+          <div class="container">
+            <h2>Projects</h2>
+          </div>
+        </section>
+
+        <div class="album">
+          <div class="container">
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal1"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel1">this is modal 1</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal2"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel2">this is modal 2</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal3"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel1">this is modal 3</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal4"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel1">this is modal 4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal5"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel5" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel1">this is modal 5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4 rounded-0">
+              <div class="py-4 px-5">
+                <h3>Project Title</h3>
+                <p class="card-text">Project Subtitle Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.</p>
+              </div>
+              <a data-bs-toggle="modal" data-bs-target="#modal6"><img class="img-fluid" src="https://www.fillmurray.com/1106/474" alt="project image"></a>
+              <div class="p-5">
+                <p class="card-text">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                  ullam
+                  corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="card-text"><a class="btn btn-outline-dark rounded-0" href="#">more...</a></p>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel6" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <p id="modalLabel1">this is modal 6</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+
+
+  <footer class="pb-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div id="contact" class="col-sm-3 py-4">
+          <h2 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-envelope"></i> <a href="mailto:liz.kerner@gmail.com" class="text-white">liz.kerner@gmail.com</a></li>
+            </ul>
+        </div>
+        <div id="about" class="col-sm-9 py-4">
+          <h2 class="text-white">About</h2>
+          <p class="lead">Liz Kerner is a designer/developer/image-maker working in Detroit, Michigan.</p>
+          <p>more bio here</p>
+          <h3>Selected Clients</h3>
+          <ul class="row row-cols-2 w-50">
+            <li>client name</li>
+            <li>client name</li>
+            <li>client name</li>
+            <li>client name</li>
+            <li>client name</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="m-0"><a href="#">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
